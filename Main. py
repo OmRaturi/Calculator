@@ -1,0 +1,23 @@
+#Calculator
+operations = ['addition','subtraction','multiplication','division','quotient','remainder']
+d = input('Choose any operation - addition,subtraction,multiplication,division,quotient,remainder -> ')
+a = int(input('Write your first number -> '))
+b = int(input('Write your second number -> '))
+if d == operations[0]:
+    c = a + b
+    print(c)
+elif d == operations[1]:
+	c = a - b
+	print(c)
+elif d == operations[2]:
+	c = a * b
+	print(c)
+elif d == operations[3]:
+	c = a / b
+	print(c)
+elif d == operations[4]:
+	c = a % b
+	print(c)
+elif d == operations[5]:
+	c = a // b
+	print(c)
